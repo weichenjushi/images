@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-04-05T07:27:34.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="7iUsBLzsCZTNFwzHcKIn" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-05T07:42:34.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="69LX0m_jDyWqooaSqjbZ" version="17.2.4" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="30000" pageHeight="50069" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="MariaDB故障诊断" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="846" y="205.5" width="202" height="80" as="geometry" />
+        <mxCell id="2" value="MariaDB故障诊断功能" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="825" y="205.5" width="244" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4" value="通用检查模块" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1429.9999999999998" y="360" width="190" height="80" as="geometry" />
@@ -31,13 +31,13 @@
         <mxCell id="13" value="资源检查模块" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontStyle=1;fontFamily=Tahoma;fontSize=18;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="236" y="354.5" width="194" height="85.5" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="要求最小资源" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" parent="1" vertex="1">
+        <mxCell id="16" value="检查资源规格" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="365" y="474.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="资源单位正确性" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" parent="1" vertex="1">
+        <mxCell id="17" value="检查资源单位" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="365" y="564.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="节点磁盘使用率" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" parent="1" vertex="1">
+        <mxCell id="18" value="节点磁盘使用率" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="365" y="654.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="59" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=0" parent="1" edge="1">
@@ -82,16 +82,16 @@
         <mxCell id="xPJydppNvQIaj2kwLTz8-138" value="主从检查模块" style="rounded=1;fillColor=#3333FF;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1150" y="360" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-141" value="节点间网络联通行" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-141" value="节点间网络联通行" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="672" y="479.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-142" value="ClusterIP连通性" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-142" value="ClusterIP连通性" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="672" y="569.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-143" value="LB连通性" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-143" value="LB连通性" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="672" y="659.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-144" value="域名解析" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-144" value="域名解析" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="672" y="749.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-145" value="MTU正确性" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
@@ -126,7 +126,7 @@
         </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-150" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=0" edge="1" parent="1" target="xPJydppNvQIaj2kwLTz8-144">
           <mxGeometry x="414" y="159.5" width="100" height="100" as="geometry">
-            <mxPoint x="639" y="439.5" as="sourcePoint" />
+            <mxPoint x="639" y="460" as="sourcePoint" />
             <mxPoint x="514" y="159.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="639" y="599.5" />
@@ -135,14 +135,14 @@
         </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-152" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=0" edge="1" parent="1">
           <mxGeometry x="414" y="69.5" width="100" height="100" as="geometry">
-            <mxPoint x="641" y="446" as="sourcePoint" />
+            <mxPoint x="639" y="460" as="sourcePoint" />
             <mxPoint x="673" y="869.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="639" y="599.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-153" value="脑裂存在" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-153" value="脑裂存在" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="972" y="474.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-164" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=0" edge="1" parent="1">
@@ -154,10 +154,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-165" value="主从正常同步" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-165" value="主从正常同步" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1273" y="478.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-166" value="主从同步延迟" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-166" value="主从同步延迟" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1273" y="563.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-167" value="从库重做" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
@@ -190,19 +190,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-177" value="CR对象名称长度" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-177" value="CR对象名称长度" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1552" y="481.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-178" value="账密正确性" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-178" value="账密正确性" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1552" y="571.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-179" value="正常读写" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-179" value="正常读写" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1552" y="661.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-180" value="一键保存日志文件" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-180" value="一键保存日志文件" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1552" y="751.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-181" value="死锁存在" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
+        <mxCell id="xPJydppNvQIaj2kwLTz8-181" value="死锁探测" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="1552" y="841.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-182" value="数据一致性比对" style="rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;" vertex="1" parent="1">
