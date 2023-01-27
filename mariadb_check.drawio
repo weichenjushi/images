@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T10:29:51.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Fk93qJ0pFt3WBqjk96QR" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T13:11:58.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Zwds7p-I_9el86eKdCLG" version="20.6.0" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="413" pageHeight="583" background="none" math="0" shadow="1">
       <root>
@@ -10,10 +10,10 @@
         <mxCell id="4" value="通用检查模块" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=18;labelBorderColor=none;labelBackgroundColor=none;spacing=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="1258.9999999999998" y="218" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=1;" parent="1" source="2" target="4" edge="1">
+        <mxCell id="9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=1;entryX=0.537;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="ZYZpc2gb1A2TfzDN3KE2-69" edge="1">
           <mxGeometry x="166" y="92.5" width="100" height="100" as="geometry">
             <mxPoint x="166" y="192.5" as="sourcePoint" />
-            <mxPoint x="266" y="92.5" as="targetPoint" />
+            <mxPoint x="1670" y="210" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1349" y="178" />
               <mxPoint x="889" y="178" />
@@ -160,9 +160,6 @@
         <mxCell id="xPJydppNvQIaj2kwLTz8-166" value="主从同步延迟" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1102" y="421.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-167" value="不停服从库重做" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1102" y="512.5" width="130" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-171" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=1;" parent="1" target="xPJydppNvQIaj2kwLTz8-165" edge="1">
           <mxGeometry x="843" y="16.5" width="100" height="100" as="geometry">
             <mxPoint x="1068" y="296.5" as="sourcePoint" />
@@ -178,15 +175,6 @@
             <mxPoint x="1102" y="456.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1068" y="356.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xPJydppNvQIaj2kwLTz8-176" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry x="843" y="16.5" width="100" height="100" as="geometry">
-            <mxPoint x="1069" y="323" as="sourcePoint" />
-            <mxPoint x="1102" y="546.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1068" y="546.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -285,6 +273,57 @@
         </mxCell>
         <mxCell id="xPJydppNvQIaj2kwLTz8-203" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fontSize=18;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1149" y="53.5" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-69" value="高频运维操作" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=18;labelBorderColor=none;labelBackgroundColor=none;spacing=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1569.9999999999998" y="212.5" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-83" value="不停服从库重做" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1698" y="338.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-84" value="一键dump集群节点&#xa;日志、连接信息、&#xa;锁信息等" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1698" y="428.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-85" value="一键并行备份所有&#xa;节点数据" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1698" y="518.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-86" value="一键修复集群" style="rounded=1;fillColor=#6d8764;strokeColor=#3A5431;fontStyle=1;fontFamily=Tahoma;fontSize=14;align=left;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1698" y="608.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-87" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=1;" edge="1" parent="1" target="ZYZpc2gb1A2TfzDN3KE2-83">
+          <mxGeometry x="1439" y="18.5" width="100" height="100" as="geometry">
+            <mxPoint x="1664" y="298.5" as="sourcePoint" />
+            <mxPoint x="1539" y="18.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1664" y="318.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-88" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=1;" edge="1" parent="1" target="ZYZpc2gb1A2TfzDN3KE2-84">
+          <mxGeometry x="1439" y="18.5" width="100" height="100" as="geometry">
+            <mxPoint x="1664" y="298.5" as="sourcePoint" />
+            <mxPoint x="1539" y="18.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1664" y="358.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-89" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=1;" edge="1" parent="1" target="ZYZpc2gb1A2TfzDN3KE2-85">
+          <mxGeometry x="1439" y="18.5" width="100" height="100" as="geometry">
+            <mxPoint x="1664" y="298.5" as="sourcePoint" />
+            <mxPoint x="1539" y="18.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1664" y="408.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYZpc2gb1A2TfzDN3KE2-90" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeWidth=2;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZYZpc2gb1A2TfzDN3KE2-86">
+          <mxGeometry x="1439" y="18.5" width="100" height="100" as="geometry">
+            <mxPoint x="1664" y="298.5" as="sourcePoint" />
+            <mxPoint x="1690" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1664" y="548.5" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
